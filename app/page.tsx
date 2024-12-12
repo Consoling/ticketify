@@ -1,9 +1,9 @@
-
+import EventList from "@/components/EventList";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Ticketify</h1>
+      <EventList />
     </div>
   );
 }
